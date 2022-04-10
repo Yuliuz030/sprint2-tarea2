@@ -11,12 +11,12 @@
 
 <body>
     <main>
-        <form class="form">
+        <form class="form" id="form">
             <label for="numero1">1er Número</label>
-            <input type="number" id="numero1" placeholder="Numero Positivo"  required>
+            <input type="number" id="numero1" min="1" pattern="^[0-9]+" placeholder="Numero Positivo"  aria-required="true">
 
             <label for="puesto2">2do Número</label>
-            <input type="number" id="numero2" placeholder="Numero Positivo"  required>
+            <input type="number" id="numero2" min="1" pattern="^[0-9]+" placeholder="Numero Positivo"  aria-required="true">
         </form>
         <div class="container">
             <section class="card-section">
